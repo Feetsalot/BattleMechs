@@ -32,9 +32,9 @@ public class EnemyMech : MonoBehaviour {
 
 	void initiateFight(GameObject target)
 	{
-		if (this.transform.position.x > target.transform.position.x - 1)
+		if (this.transform.position.x > target.transform.position.x + 3.5f)
 		{
-			Vector2 moveTo = Vector3.MoveTowards(new Vector3(this.transform.position.x, this.transform.position.y,0),new Vector3(target.transform.position.x, target.transform.position.y,0),2f);
+			Vector2 moveTo = Vector3.MoveTowards(new Vector3(this.transform.position.x , this.transform.position.y,0),new Vector3(target.transform.position.x + 3.5f, target.transform.position.y,0),2f);
 			this.transform.position = new Vector3(moveTo.x,moveTo.y,0);
 		}
 	}
