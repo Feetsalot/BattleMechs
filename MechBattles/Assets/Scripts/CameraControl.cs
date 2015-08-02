@@ -22,5 +22,7 @@ public class CameraControl : MonoBehaviour {
 	{
 		if(target.transform.position.x > horizontalBuffer)
 			this.transform.position = new Vector3 (target.transform.position.x, target.transform.position.y + upperBuffer, zoomAmount);
+		if(target.transform.position.y > upperBuffer || target.transform.position.y < upperBuffer)
+			this.transform.position = new Vector3 (this.transform.position.x, target.transform.position.y + upperBuffer, zoomAmount);
 	}
 }

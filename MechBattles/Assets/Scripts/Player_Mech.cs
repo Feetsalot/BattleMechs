@@ -7,9 +7,14 @@ public class Player_Mech : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	public Transform groundCheck;
 
+	public Sequence playerSequence;
+
 	private bool grounded;
 	[HideInInspector] public bool facingRight = true;
 	[HideInInspector] public bool jump = false;
+
+	public bool isMoveAble = true;
+	public bool isInBattle = false;
 
 	public float jumpForce; 
 	public float moveForce;
@@ -25,43 +30,50 @@ public class Player_Mech : MonoBehaviour {
 	void Update () 
 	{
 		isGrounded ();
-		Movement ();
+		if (!isInBattle) {
+			Movement ();
+		} else if (isInBattle) {
+			//displayDodge();
+		}
 	}
 
-	void OnCollisionEnter2D(Collision2D coll) 
+	void displayDodge(int time, string dodge)
 	{
 
 	}
-	
+
+	#region Platformer Controls
 	void Movement()
 	{
-		if (Input.GetButtonDown("Jump") && grounded)
-		{
-			jump = true;
-		}
+		if (isMoveAble) {
 
-		float h = Input.GetAxis("Horizontal");
+			if (Input.GetButtonDown ("Jump") && grounded) {
+				jump = true;
+			}
+
+			float h = Input.GetAxis ("Horizontal");
 		
-		anim.SetFloat("HorizontalSpeed", Mathf.Abs(h));
+			anim.SetFloat ("HorizontalSpeed", Mathf.Abs (h));
 		
-		if (h * rb2d.velocity.x < maxSpeed)
-			rb2d.AddForce(Vector2.right * h * moveForce);
+			if (h * rb2d.velocity.x < maxSpeed)
+				rb2d.AddForce (Vector2.right * h * moveForce);
 		
-		if (Mathf.Abs (rb2d.velocity.x) > maxSpeed)
-			rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+			if (Mathf.Abs (rb2d.velocity.x) > maxSpeed)
+				rb2d.velocity = new Vector2 (Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
 
-		//anim.SetFloat("HorizontalSpeed", Mathf.Abs (Input.GetAxisRaw("Horizontal")));
+			//anim.SetFloat("HorizontalSpeed", Mathf.Abs (Input.GetAxisRaw("Horizontal")));
 
-		if (h > 0 && !facingRight)
-			Flip ();
-		else if (h < 0 && facingRight)
-			Flip ();
+			if (h > 0 && !facingRight)
+				Flip ();
+			else if (h < 0 && facingRight)
+				Flip ();
 
-		if (jump)
-		{
-			anim.SetTrigger("Jump");
-			rb2d.AddForce(new Vector2(0f, jumpForce));
-			jump = false;
+			if (jump) {
+				anim.SetTrigger ("Jump");
+				rb2d.AddForce (new Vector2 (0f, jumpForce));
+				jump = false;
+			}
+
 		}
 	}
 
@@ -83,4 +95,5 @@ public class Player_Mech : MonoBehaviour {
 			grounded = false;
 		}
 	}
+	#endregion
 }
