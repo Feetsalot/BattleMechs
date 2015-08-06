@@ -6,6 +6,9 @@ public class Player_Mech : MonoBehaviour {
 	private Animator anim;
 	private Rigidbody2D rb2d;
 	public Transform groundCheck;
+	public GameObject gameManager;
+
+	public int player_hp = 10;
 
 	public Sequence playerSequence;
 
@@ -15,10 +18,13 @@ public class Player_Mech : MonoBehaviour {
 
 	public bool isMoveAble = true;
 	public bool isInBattle = false;
+	public bool isTapable = false;
 
 	public float jumpForce; 
 	public float moveForce;
 	public float maxSpeed;
+
+	float elapsedTime;
 	
 	// Use this for initialization
 	void Start () {
@@ -29,18 +35,53 @@ public class Player_Mech : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		isGrounded ();
+		isGrounded ();	
 		if (!isInBattle) {
 			Movement ();
 		} else if (isInBattle) {
-			//displayDodge();
 		}
 	}
 
-	void displayDodge(int time, string dodge)
-	{
-
-	}
+//	public IEnumerator battleControls(float start, GameObject gem)
+//	{
+//		//Debug.Log ("In Coroutine");
+//		if (isTapable) 
+//		{
+//
+//			elapsedTime = Time.time;
+//			Debug.Log ("elapsed time = " + (elapsedTime - start));
+//			if(elapsedTime - start <= 0.1f)
+//			{
+//				if(Input.GetKeyDown(KeyCode.Space))
+//				{
+//					gameManager.GetComponent<Battle>().evaluateGemTime("good", gem);
+//					StopCoroutine("battleControls");
+//				}
+//			}
+//			else if(elapsedTime - start <= 0.3f && elapsedTime - start > 0.1f )
+//			{
+//				if(Input.GetKeyDown(KeyCode.Space))
+//				{
+//					gameManager.GetComponent<Battle>().evaluateGemTime("great", gem);
+//					StopCoroutine("battleControls");
+//				}
+//			}
+//			else if(elapsedTime - start <= 0.4f && elapsedTime - start > 0.3f )
+//			{
+//				if(Input.GetKeyDown(KeyCode.Space))
+//				{
+//					gameManager.GetComponent<Battle>().evaluateGemTime("good", gem);
+//					StopCoroutine("battleControls");
+//				}
+//			}
+//			else {
+//				gameManager.GetComponent<Battle>().evaluateGemTime("miss", gem);
+//				StopCoroutine("battleControls");
+//			}
+//
+//		}
+//		yield return new WaitForSeconds(0.001f);
+//	}
 
 	#region Platformer Controls
 	void Movement()

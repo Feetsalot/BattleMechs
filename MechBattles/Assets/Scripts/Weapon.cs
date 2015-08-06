@@ -9,6 +9,6 @@ public class Weapon : MonoBehaviour {
 
 	public Weapon(attackType type)
 	{
-		type = attackType;
+		this.type = type;
 	}
 }

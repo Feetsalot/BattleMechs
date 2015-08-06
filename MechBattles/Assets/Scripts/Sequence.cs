@@ -11,17 +11,17 @@ public class Sequence : MonoBehaviour {
 	}
 
 	public Sequence.actionTimeTable[] TimeActTable;
+	public AudioClip sound;
 //	public Hashtable actionTimeTables;
 
-	public Sequence(actionTimeTable[] att)
+	public Sequence(actionTimeTable[] att, AudioClip sound)
 	{
 		this.TimeActTable = att;
-
+		this.sound = sound;
 //		foreach(actionTimeTable current in att)
 //		{
 //			this.actionTimeTables.Add (current.time, current.action);
 //		}
-
 	}
 
 

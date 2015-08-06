@@ -1,0 +1,1199 @@
+fileFormatVersion: 2
+guid: 36011f4390ff2984e9ce9bbfc1fbaf3e
+timeCreated: 1438632023
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Battle_UI_0
+    21300002: Battle_UI_1
+    21300004: Battle_UI_2
+    21300006: Battle_UI_3
+    21300008: Battle_UI_4
+    21300010: Battle_UI_5
+    21300012: Battle_UI_6
+    21300014: Battle_UI_7
+    21300016: Battle_UI_8
+    21300018: Battle_UI_9
+    21300020: Battle_UI_10
+    21300022: Battle_UI_11
+    21300024: Battle_UI_12
+    21300026: Battle_UI_13
+    21300028: Battle_UI_14
+    21300030: Battle_UI_15
+    21300032: Battle_UI_16
+    21300034: Battle_UI_17
+    21300036: Battle_UI_18
+    21300038: Battle_UI_19
+    21300040: Battle_UI_20
+    21300042: Battle_UI_21
+    21300044: Battle_UI_22
+    21300046: Battle_UI_23
+    21300048: Battle_UI_24
+    21300050: Battle_UI_25
+    21300052: Battle_UI_26
+    21300054: Battle_UI_27
+    21300056: Battle_UI_28
+    21300058: Battle_UI_29
+    21300060: Battle_UI_30
+    21300062: Battle_UI_31
+    21300064: Battle_UI_32
+    21300066: Battle_UI_33
+    21300068: Battle_UI_34
+    21300070: Battle_UI_35
+    21300072: Battle_UI_36
+    21300074: Battle_UI_37
+    21300076: Battle_UI_38
+    21300078: Battle_UI_39
+    21300080: Battle_UI_40
+    21300082: Battle_UI_41
+    21300084: Battle_UI_42
+    21300086: Battle_UI_43
+    21300088: Battle_UI_44
+    21300090: Battle_UI_45
+    21300092: Battle_UI_46
+    21300094: Battle_UI_47
+    21300096: Battle_UI_48
+    21300098: Battle_UI_49
+    21300100: Battle_UI_50
+    21300102: Battle_UI_51
+    21300104: Battle_UI_52
+    21300106: Battle_UI_53
+    21300108: Battle_UI_54
+    21300110: Battle_UI_55
+    21300112: Battle_UI_56
+    21300114: Battle_UI_57
+    21300116: Battle_UI_58
+    21300118: Battle_UI_59
+    21300120: Battle_UI_60
+    21300122: Battle_UI_61
+    21300124: Battle_UI_62
+    21300126: Battle_UI_63
+    21300128: Battle_UI_64
+    21300130: Battle_UI_65
+    21300132: Battle_UI_66
+    21300134: Battle_UI_67
+    21300136: Battle_UI_68
+    21300138: Battle_UI_69
+    21300140: Battle_UI_70
+    21300142: Battle_UI_71
+    21300144: Battle_UI_72
+    21300146: Battle_UI_73
+    21300148: Battle_UI_74
+    21300150: Battle_UI_75
+    21300152: Battle_UI_76
+    21300154: Battle_UI_77
+    21300156: Battle_UI_78
+    21300158: Battle_UI_79
+    21300160: Battle_UI_80
+    21300162: Battle_UI_81
+    21300164: Battle_UI_82
+    21300166: Battle_UI_83
+    21300168: Battle_UI_84
+    21300170: Battle_UI_85
+    21300172: Battle_UI_86
+    21300174: Battle_UI_87
+    21300176: Battle_UI_88
+    21300178: Battle_UI_89
+    21300180: Battle_UI_90
+    21300182: Battle_UI_91
+    21300184: Battle_UI_92
+    21300186: Battle_UI_93
+    21300188: Battle_UI_94
+    21300190: Battle_UI_95
+    21300192: Battle_UI_96
+    21300194: Battle_UI_97
+    21300196: Battle_UI_98
+    21300198: Battle_UI_99
+    21300200: Battle_UI_100
+    21300202: Battle_UI_101
+    21300204: Battle_UI_102
+    21300206: Battle_UI_103
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Battle_UI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 177
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 177
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 165
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 174
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 174
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 165
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 165
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_8
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 165
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_9
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 165
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 178
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 174
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_12
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 165
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 178
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 174
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 165
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 178
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_17
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 174
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 121
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 121
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 141
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_23
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 141
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 132
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_25
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 132
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_26
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 132
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_27
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 132
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_28
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 145
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 141
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_30
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 132
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_31
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 145
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_32
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 141
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_33
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 132
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_34
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 145
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_35
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 141
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 290
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_37
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 99
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_38
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 108
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_40
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 99
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_41
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 99
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_42
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 99
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 99
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_44
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_45
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_46
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 99
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_47
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_48
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_49
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 99
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_50
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_51
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 108
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_53
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 78
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_54
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 78
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_55
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 66
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_56
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 75
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 75
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_58
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 66
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_59
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 66
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_60
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 66
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_61
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 66
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_62
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_63
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 75
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_64
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 66
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_65
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_66
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 75
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_67
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 66
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_68
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_69
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 75
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_71
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 22
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_72
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 22
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_73
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 33
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_74
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_75
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 42
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_76
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 33
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_77
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 33
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_78
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 33
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_79
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 33
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_80
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_81
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 42
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_82
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 33
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_83
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_84
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 42
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_85
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 33
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_86
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_87
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 42
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 290
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_89
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_90
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 9
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 9
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_92
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_93
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_94
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_95
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_96
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_97
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 9
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_98
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_99
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_100
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 9
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_101
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_102
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Battle_UI_103
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 9
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
