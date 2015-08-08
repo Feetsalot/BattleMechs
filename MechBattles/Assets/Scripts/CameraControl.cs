@@ -20,9 +20,9 @@ public class CameraControl : MonoBehaviour {
 
 	void follow(GameObject target)
 	{
-		if(target.transform.position.x > horizontalBuffer)
-			this.transform.position = new Vector3 (target.transform.position.x, target.transform.position.y + upperBuffer, zoomAmount);
-		if(target.transform.position.y > upperBuffer || target.transform.position.y < upperBuffer)
-			this.transform.position = new Vector3 (this.transform.position.x, target.transform.position.y + upperBuffer, zoomAmount);
+		if (target.transform.position.x > horizontalBuffer)
+			this.transform.position = new Vector3 (target.transform.position.x, this.transform.position.y, zoomAmount);//target.transform.position.y + upperBuffer, zoomAmount);
+//		if(target.transform.position.y > upperBuffer || target.transform.position.y < upperBuffer)
+//			this.transform.position = new Vector3 (this.transform.position.x, target.transform.position.y + upperBuffer, zoomAmount);
 	}
 }

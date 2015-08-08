@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 6cf6a9c37fcb6c040a3830e7729a2671
+timeCreated: 1438878343
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HIT_Zones_Anim_0
+    21300002: HIT_Zones_Anim_1
+    21300004: HIT_Zones_Anim_2
+    21300006: HIT_Zones_Anim_3
+    21300008: HIT_Zones_Anim_4
+    21300010: HIT_Zones_Anim_5
+    21300012: HIT_Zones_Anim_6
+    21300014: HIT_Zones_Anim_7
+    21300016: HIT_Zones_Anim_8
+    21300018: HIT_Zones_Anim_9
+    21300020: HIT_Zones_Anim_10
+    21300022: HIT_Zones_Anim_11
+    21300024: HIT_Zones_Anim_12
+    21300026: HIT_Zones_Anim_13
+    21300028: HIT_Zones_Anim_14
+    21300030: HIT_Zones_Anim_15
+    21300032: HIT_Zones_Anim_16
+    21300034: HIT_Zones_Anim_17
+    21300036: HIT_Zones_Anim_18
+    21300038: HIT_Zones_Anim_19
+    21300040: HIT_Zones_Anim_20
+    21300042: HIT_Zones_Anim_21
+    21300044: HIT_Zones_Anim_22
+    21300046: HIT_Zones_Anim_23
+    21300048: HIT_Zones_Anim_24
+    21300050: HIT_Zones_Anim_25
+    21300052: HIT_Zones_Anim_26
+    21300054: HIT_Zones_Anim_27
+    21300056: HIT_Zones_Anim_28
+    21300058: HIT_Zones_Anim_29
+    21300060: HIT_Zones_Anim_30
+    21300062: HIT_Zones_Anim_31
+    21300064: HIT_Zones_Anim_32
+    21300066: HIT_Zones_Anim_33
+    21300068: HIT_Zones_Anim_34
+    21300070: HIT_Zones_Anim_35
+    21300072: HIT_Zones_Anim_36
+    21300074: HIT_Zones_Anim_37
+    21300076: HIT_Zones_Anim_38
+    21300078: HIT_Zones_Anim_39
+    21300080: HIT_Zones_Anim_40
+    21300082: HIT_Zones_Anim_41
+    21300084: HIT_Zones_Anim_42
+    21300086: HIT_Zones_Anim_43
+    21300088: HIT_Zones_Anim_44
+    21300090: HIT_Zones_Anim_45
+    21300092: HIT_Zones_Anim_46
+    21300094: HIT_Zones_Anim_47
+    21300096: HIT_Zones_Anim_48
+    21300098: HIT_Zones_Anim_49
+    21300100: HIT_Zones_Anim_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HIT_Zones_Anim_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 53
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 51
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 53
+        width: 63
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 54
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 36
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 59
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 36
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 37
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 20
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_36
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 17
+        width: 59
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 20
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 20
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_45
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 59
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_47
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HIT_Zones_Anim_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

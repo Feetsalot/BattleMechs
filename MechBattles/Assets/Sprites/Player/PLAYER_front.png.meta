@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: 1b3fe810a94a7bb409ca5282bdd68f90
+timeCreated: 1438876251
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PLAYER_front_0
+    21300002: PLAYER_front_1
+    21300004: PLAYER_front_2
+    21300006: PLAYER_front_3
+    21300008: PLAYER_front_4
+    21300010: PLAYER_front_5
+    21300012: PLAYER_front_6
+    21300014: PLAYER_front_7
+    21300016: PLAYER_front_8
+    21300018: PLAYER_front_9
+    21300020: PLAYER_front_10
+    21300022: PLAYER_front_11
+    21300024: PLAYER_front_12
+    21300026: PLAYER_front_13
+    21300028: PLAYER_front_14
+    21300030: PLAYER_front_15
+    21300032: PLAYER_front_16
+    21300034: PLAYER_front_17
+    21300036: PLAYER_front_18
+    21300038: PLAYER_front_19
+    21300040: PLAYER_front_20
+    21300042: PLAYER_front_21
+    21300044: PLAYER_front_22
+    21300046: PLAYER_front_23
+    21300048: PLAYER_front_24
+    21300050: PLAYER_front_25
+    21300052: PLAYER_front_26
+    21300054: PLAYER_front_27
+    21300056: PLAYER_front_28
+    21300058: PLAYER_front_29
+    21300060: PLAYER_front_30
+    21300062: PLAYER_front_31
+    21300064: PLAYER_front_32
+    21300066: PLAYER_front_33
+    21300068: PLAYER_front_34
+    21300070: PLAYER_front_35
+    21300072: PLAYER_front_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PLAYER_front_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 715
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 715
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 715
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 650
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 650
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 650
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 650
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 585
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 585
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 585
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 520
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 520
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 520
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 520
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 455
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 455
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 455
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 390
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 390
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 390
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 325
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 325
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 325
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 260
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 260
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 195
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 195
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 65
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 65
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_front_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

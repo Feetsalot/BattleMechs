@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: e4056fecaaacef64389d423a4742eb09
+timeCreated: 1438876259
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PLAYER_lazer_0
+    21300002: PLAYER_lazer_1
+    21300004: PLAYER_lazer_2
+    21300006: PLAYER_lazer_3
+    21300008: PLAYER_lazer_4
+    21300010: PLAYER_lazer_5
+    21300012: PLAYER_lazer_6
+    21300014: PLAYER_lazer_7
+    21300016: PLAYER_lazer_8
+    21300018: PLAYER_lazer_9
+    21300020: PLAYER_lazer_10
+    21300022: PLAYER_lazer_11
+    21300024: PLAYER_lazer_12
+    21300026: PLAYER_lazer_13
+    21300028: PLAYER_lazer_14
+    21300030: PLAYER_lazer_15
+    21300032: PLAYER_lazer_16
+    21300034: PLAYER_lazer_17
+    21300036: PLAYER_lazer_18
+    21300038: PLAYER_lazer_19
+    21300040: PLAYER_lazer_20
+    21300042: PLAYER_lazer_21
+    21300044: PLAYER_lazer_22
+    21300046: PLAYER_lazer_23
+    21300048: PLAYER_lazer_24
+    21300050: PLAYER_lazer_25
+    21300052: PLAYER_lazer_26
+    21300054: PLAYER_lazer_27
+    21300056: PLAYER_lazer_28
+    21300058: PLAYER_lazer_29
+    21300060: PLAYER_lazer_30
+    21300062: PLAYER_lazer_31
+    21300064: PLAYER_lazer_32
+    21300066: PLAYER_lazer_33
+    21300068: PLAYER_lazer_34
+    21300070: PLAYER_lazer_35
+    21300072: PLAYER_lazer_36
+    21300074: PLAYER_lazer_37
+    21300076: PLAYER_lazer_38
+    21300078: PLAYER_lazer_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PLAYER_lazer_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 729
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 729
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 729
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 664
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 664
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 664
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 664
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 596
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 591
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 600
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 526
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 526
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 526
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 531
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 469
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_15
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 469
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_16
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 469
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 404
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 404
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 404
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 339
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 339
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 339
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 274
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 274
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 209
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 209
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 147
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 145
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 144
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 79
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 79
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_32
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 79
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 79
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_34
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 79
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_36
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 11
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 6
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PLAYER_lazer_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 6
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

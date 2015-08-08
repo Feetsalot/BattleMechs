@@ -7,7 +7,19 @@ public class Battle : MonoBehaviour {
 	public GameObject enemy;
 	public GameObject UIBattleBar;
 
-	public float timeToTravel = 3.25f;
+	#region Indicators
+	public GameObject early_Indicator;
+	public GameObject good_Indicator;
+	public GameObject perfect_Indicator;
+	public GameObject slow_Indicator;
+	public GameObject miss_Indicator;
+	#endregion
+	
+	public AudioClip word_battle;
+	public AudioClip word_commence;
+	public AudioSource UIsound;
+
+	public float timeToTravel = 2.85f;
 
 	public GameObject gem;
 
@@ -20,7 +32,11 @@ public class Battle : MonoBehaviour {
 
 	public bool playSequences = false;
 
+	Sequence playerSequence;
+	Sequence[] playerSequences;
+	
 	Sequence enemySequence;
+	Sequence[] enemySequences;
 
 	int []times;
 
@@ -42,10 +58,10 @@ public class Battle : MonoBehaviour {
 	{
 		sequenceSound.clip = enemySequence.sound;
 		for (int i = 0; i < enemySequence.TimeActTable.Length; i++) {
-			StartCoroutine("playSound");
+			StartCoroutine(playSequenceSound(timeToTravel));
 			enemy.GetComponent<EnemyMech> ().Action (enemySequence.TimeActTable [i].action);
 			GameObject new_Gem = (GameObject)Instantiate(gem, new Vector3(UIBattleBar.transform.position.x + 25.0f, UIBattleBar.transform.position.y, UIBattleBar.transform.position.z) , Quaternion.identity);
-			new_Gem.GetComponent<Rigidbody2D>().AddForce(new Vector2(-8.65f,0), ForceMode2D.Impulse);
+			new_Gem.GetComponent<Rigidbody2D>().AddForce(new Vector2(-8.86f,0), ForceMode2D.Impulse);
 			new_Gem.GetComponent<Gem>().gameManager = this.gameObject;
 			new_Gem.GetComponent<Gem>().isTapable = true;
 			StartCoroutine(new_Gem.GetComponent<Gem>().battleControls(Time.time, new_Gem));
@@ -57,9 +73,9 @@ public class Battle : MonoBehaviour {
 
 	}
 
-	IEnumerator playSound()
+	IEnumerator playSequenceSound(float wait)
 	{
-		yield return new WaitForSeconds(timeToTravel);
+		yield return new WaitForSeconds(wait);
 		if(soundStarted == false)
 		{
 			sequenceSound.Play ();
@@ -69,44 +85,51 @@ public class Battle : MonoBehaviour {
 		}
 	}
 
+	IEnumerator playUISound(float wait , AudioClip sound)
+	{
+		yield return new WaitForSeconds(wait);
+		UIsound.clip = sound;
+		UIsound.Play ();
+		StopCoroutine("playUISound");
+	}
+	
 	public void evaluateGemTime(string quality, GameObject gem)
 	{
 		if (quality == "miss") {
-			Debug.Log ("Missed!");
+			GameObject new_Indicator = (GameObject)Instantiate(miss_Indicator, new Vector3(gem.transform.position.x + 5.0f, gem.transform.position.y + 5.0f, 0) , Quaternion.identity);
 			Destroy(gem);
 		}
+
 		if (quality == "good") {
-			Debug.Log ("Good!");
+			GameObject new_Indicator = (GameObject)Instantiate(good_Indicator, new Vector3(gem.transform.position.x + 5.0f, gem.transform.position.y + 5.0f, 0) , Quaternion.identity);
 			Destroy(gem);
 		}
-		if (quality == "great") {
-			Debug.Log ("Great!");
+
+		if (quality == "perfect") {
+			GameObject new_Indicator = (GameObject)Instantiate(perfect_Indicator, new Vector3(gem.transform.position.x + 5.0f, gem.transform.position.y + 5.0f, 0) , Quaternion.identity);
+			Destroy(gem);
+		}
+
+		if (quality == "slow") {
+			GameObject new_Indicator = (GameObject)Instantiate(slow_Indicator, new Vector3(gem.transform.position.x + 5.0f, gem.transform.position.y + 5.0f, 0) , Quaternion.identity);
+			Destroy(gem);
+		}
+
+		if (quality == "early") {
+			GameObject new_Indicator = (GameObject)Instantiate(early_Indicator, new Vector3(gem.transform.position.x + 5.0f, gem.transform.position.y  + 5.0f, 0) , Quaternion.identity);
 			Destroy(gem);
 		}
 	}
 
-//	public void sendPlayerSequence()
-//	{
-//		//Debug.Log(enemySequence.TimeActTable[0].time);
-//		for (int i = 0; i < enemySequence.TimeActTable.Length; i++) {
-//			float timer = enemySequence.TimeActTable[i].time;
-//			if(timer <= 0)
-//			{
-//				enemy.GetComponent<EnemyMech> ().Action (enemySequence.TimeActTable [i].action);
-//			} else {
-//				timer -= Time.deltaTime;
-//			}
-//			
-//		}
-//
-//	}
 	public void OnGUI()
 	{
 		if (showStart) {
 			if (GUI.Button (new Rect (Screen.width / 2, Screen.height / 2, 100, 100), "Start")) {
 				showStart = false;
+				StartCoroutine(playUISound(0f, word_battle));
+				StartCoroutine(playUISound(1f, word_commence));
 				StartCoroutine("sendPlayerSequence");
-//				playSequences = true;
+
 			}
 		}
 

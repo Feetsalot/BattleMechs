@@ -16,14 +16,16 @@ public class EnemyMech : MonoBehaviour {
 	public Weapon primaryWeapon;
 
 	public Sequence enemySequence;
+	public Sequence[] enemySequences;
 
-	public float moveSpeed = 10f;
+	public float moveSpeed = 5f;
 
 	float step;
 
 
 	// Use this for initialization
 	void Start () {
+		step = 0.001f;
 		primaryWeapon = this.GetComponent<Weapon> ();
 		anim = this.GetComponent<Animator> ();
 		enemySequence = this.GetComponent<Sequence> ();
@@ -32,8 +34,9 @@ public class EnemyMech : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 		if (inBattle == false) {
-			step = moveSpeed * Time.deltaTime;
+
 			targetPlayer ();
 		} else if (inBattle) {
 
@@ -63,7 +66,7 @@ public class EnemyMech : MonoBehaviour {
 		this.anim.SetBool ("Shooting", false);
 		GameObject new_projectile = (GameObject)Instantiate(projectile, new Vector3(this.transform.position.x - 1.0f, this.transform.position.y + 0.7f, this.transform.position.z) , Quaternion.identity);
 		new_projectile.GetComponent<Rigidbody2D>().AddForce(new Vector2(-8.5f,0), ForceMode2D.Impulse);
-		Debug.Log ("Fired Projectile " + new_projectile);
+		//Debug.Log ("Fired Projectile " + new_projectile);
 	}
 
 	#endregion
@@ -75,23 +78,34 @@ public class EnemyMech : MonoBehaviour {
 			RaycastHit2D hit = Physics2D.Linecast (this.transform.position, lineOfSight.transform.position, 1 << 8);
 			if (hit.collider.name == "Player_Mech") {
 				targeted = true;
-				initiateFight (hit.collider.gameObject);
+				if(anim.GetBool("Moving") == false)
+				{
+					StartCoroutine(tryInitiateFight (hit.collider.gameObject));
+				}
 			}
 		}
 	}
 
-	void initiateFight(GameObject target)
+	IEnumerator tryInitiateFight(GameObject target)
 	{
-		if (this.transform.position.x > target.transform.position.x + 3.5f) {
-			Vector2 moveTo = Vector3.MoveTowards (new Vector3 (this.transform.position.x, this.transform.position.y, 0), new Vector3 (target.transform.position.x + 3.5f, this.transform.position.y, 0), step);
-			this.transform.position = new Vector3 (moveTo.x, moveTo.y, 0);
-			target.GetComponent<Player_Mech> ().isMoveAble = false;
-			anim.SetBool("Moving", true);
-		} else {
-			anim.SetBool("Moving", false);
-			inBattle = true;
-			target.GetComponent<Player_Mech> ().isInBattle = true;
-			battleManager.GetComponent<Battle>().loadBattle (this.gameObject.name + "_Battle", this.gameObject);
+		while(targeted){
+			if (targeted) {
+				step = 10f * (Time.deltaTime);
+				Vector2 moveTo = Vector2.MoveTowards(new Vector2(this.transform.position.x,  this.transform.position.y), new Vector2(target.transform.position.x, this.transform.position.y), step);
+
+				this.transform.position = new Vector3(moveTo.x , moveTo.y, 0);
+				//this.GetComponent<Rigidbody2D>().AddForce(new Vector2(-300f,0), ForceMode2D.Force);
+				//target.GetComponent<Player_Mech> ().isMoveAble = false;
+				anim.SetBool ("Moving", true);
+			} 
+			if (this.transform.position.x <= target.transform.position.x + 3.5f) {
+				targeted = false;
+				anim.SetBool ("Moving", false);
+				inBattle = true;
+				target.GetComponent<Player_Mech> ().isInBattle = true;
+				battleManager.GetComponent<Battle> ().loadBattle (this.gameObject.name + "_Battle", this.gameObject);
+			}
+			yield return new WaitForSeconds(0f);
 		}
 	}
 	#endregion

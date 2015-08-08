@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Player_Mech : MonoBehaviour {
@@ -10,7 +11,10 @@ public class Player_Mech : MonoBehaviour {
 
 	public int player_hp = 10;
 
+	public GameObject hp;
+
 	public Sequence playerSequence;
+	public Sequence[] playerSequences;
 
 	private bool grounded;
 	[HideInInspector] public bool facingRight = true;
@@ -35,10 +39,23 @@ public class Player_Mech : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+
 		isGrounded ();	
 		if (!isInBattle) {
 			Movement ();
 		} else if (isInBattle) {
+			hp.GetComponent<Text> ().text = ("" + player_hp);
+		}
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (player_hp > 1) {
+			player_hp -= 1;
+			Destroy(other.gameObject);
+		} else {
+			hp.GetComponent<Text> ().text = ("Dead");
+			Application.Quit();
 		}
 	}
 
